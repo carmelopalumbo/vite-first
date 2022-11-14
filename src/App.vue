@@ -1,9 +1,9 @@
 <!-- app vue -->
 
 <script>
+import FirstComponent from "./components/FirstComponent.vue";
 export default {
-  name: "App",
-  components: {},
+  components: { FirstComponent },
   data() {
     return {
       text: "La mia prima app con Vite!",
@@ -14,7 +14,7 @@ export default {
 
 <template>
   <h1>{{ text }}</h1>
+  <first-component />
 </template>
 
-<style>
-</style>
+<style></style>

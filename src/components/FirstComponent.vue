@@ -1,3 +1,5 @@
+<!-- app vue -->
+
 <script>
 export default {
   name: "FirstComponent",
@@ -12,8 +14,6 @@ export default {
 <template>
   <h2>{{ text }}</h2>
 </template>
-
-
 
 <style scoped>
 h2 {
